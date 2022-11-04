@@ -168,7 +168,7 @@ setup(
     entry_points={"console_scripts": ["evaluate-cli=evaluate.commands.evaluate_cli:main"]},
     install_requires=REQUIRED_PKGS,
     extras_require=EXTRAS_REQUIRE,
-    python_requires=">=3.7.0",
+    python_requires=">=3.6.0",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
